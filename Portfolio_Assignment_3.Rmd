@@ -1,7 +1,4 @@
 ---
-title: "Portfolio Assignment 3 - Resume"
-author: "Shervin Kaandorp"
-date: "18-4-2021"
 output: html_document
 ---
 ```{R Profile Picture, echo=FALSE, out.width = "20%"}
@@ -9,24 +6,68 @@ knitr::include_graphics("doc/ResumePicture.jpg"
 )
 ```
 
-# Shervin Kaandorp
+# __Shervin Kaandorp__
 
-## Life Science student
+## __Life Science student__
 
 ***
 
 > Personal information
 
+I will not add my personal information here because of privacy :)
+
 > Education
 
 __HBO Life Sciences • Hogeschool Utrecht, Utrecht__
+
 _September 2018 - Present_
+
 Microbiology specialisation.
+
 Data Sciences for Biology minor 30 EC.
 
 
+
 __VWO • Martinuscollege, Grootebroek__
+
 _September 2012 - July 2018_
+
 N&T en N&G package
 
+
+
+
 > Working Experience
+
+__Restaurant worker and attraction operator • Sprookjeswonderland__
+
+_August 2018 – January 2021_
+
+__Summer job • Soci-Com__
+
+_July 2017 – August 2017_
+
+__Postman • Businesspost Hoorn__
+
+_August 2016 – August 2018_
+
+
+> Skills
+
+* Data analysis in R
+* Data analysis in Bash
+* Microsoft Excel
+
+> Personality
+
+* Enthousiastic
+* Curious
+* Flexible
+* Reliable
+
+
+> Languages
+
+* Dutch (Native proficiency)
+* English (Full professional proficiency)
+* German (Limited working proficiency)
