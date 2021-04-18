@@ -23,7 +23,7 @@ _B) Open the file in R, using the {readxl} package. _
 The _here_ package has also been used to import the excel file from the working directory.
 
 ```{R Assignment 1.1B, message=FALSE}
-CE.LIQ.FLOW.062_Tidydata <- read_excel(here("raw_data/CE.LIQ.FLOW.062_Tidydata.xlsx"))
+CE.LIQ.FLOW.062_Tidydata <- read_excel(here("rawdata/CE.LIQ.FLOW.062_Tidydata.xlsx"))
 ```
 
 _C) Inspect the data types of columns RawData, compName and compConcentration. What types would you expect from the experimental description above. Have the data types been correctly assigned during the importing of the data into R? _
