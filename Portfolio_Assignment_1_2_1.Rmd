@@ -1,0 +1,31 @@
+---
+title: "Workflows Assignment 1.2 PART 1"
+author: "Shervin Kaandorp"
+date: "14-4-2021"
+output: html_document
+---
+
+The article that has been reviewed is: https://pubmed.ncbi.nlm.nih.gov/32345594/
+
+Dai, M., Liu, D., Liu, M., Zhou, F., Li, G., Chen, Z., Zhang, Z., You, H., Wu, M., Zheng, Q., Xiong, Y., Xiong, H., Wang, C., Chen, C., Xiong, F., Zhang, Y., Peng, Y., Ge, S., Zhen, B., Yu, T., … Cai, H. (2020). Patients with Cancer Appear More Vulnerable to SARS-CoV-2: A Multicenter Study during the COVID-19 Outbreak. Cancer discovery, 10(6), 783–791. https://doi.org/10.1158/2159-8290.CD-20-0422
+
+: Table 1: Repita Creteria scores for article by Dai, M.
+
+| Transparency Criteria | Response |
+|:-----|:-----|
+| Study Purpose | YES |
+| Data Availability Statement | YES |
+| Data Location | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7309152/bin/candisc-10-783-s001.pdf and https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7309152/bin/candisc-10-783-s002.pdf|
+| Study Location | YES, 14 hospitals in Hubei province, China |
+| Author Review | YES, TIER 3 |
+| Ethics Statement | NO |
+| Funding Statement | NO |
+| Code Availability | NO |
+
+The general aim of this article is a systematic analysis of diverse cohorts of patients with cancer affected by COVID-19.
+
+The researchers performed a multicenter study including 105 patients with cancer and 536 age-matched noncancer patients confirmed with COVID-19. 
+
+The results showed COVID-19 patients with cancer had higher risks in all severe outcomes.
+
+The article does not include raw data but only anonymous personal information (risk factors). This includes sex, age, comorbidities, time, tumor type, phase, smoking history, treatments, last time of treatment, servere events and survival status.
