@@ -1,0 +1,32 @@
+---
+title: "Portfolio Assignment 3 - Resume"
+author: "Shervin Kaandorp"
+date: "18-4-2021"
+output: html_document
+---
+```{R Profile Picture, echo=FALSE, out.width = "20%"}
+knitr::include_graphics("doc/ResumePicture.jpg"
+)
+```
+
+# Shervin Kaandorp
+
+## Life Science student
+
+***
+
+> Personal information
+
+> Education
+
+__HBO Life Sciences • Hogeschool Utrecht, Utrecht__
+_September 2018 - Present_
+Microbiology specialisation.
+Data Sciences for Biology minor 30 EC.
+
+
+__VWO • Martinuscollege, Grootebroek__
+_September 2012 - July 2018_
+N&T en N&G package
+
+> Working Experience
