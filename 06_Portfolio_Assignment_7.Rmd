@@ -1,0 +1,43 @@
+---
+title: "Portfolio Assignment 7"
+author: "Shervin Kaandorp"
+date: "16-5-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(dslabs)
+library(tidyr)
+```
+
+
+## Lesson 7
+
+### Portfolio Assignment 7
+
+__7.1) Load the flu (“./data/flu_data.csv), the dengue (.”/data/dengue_data.csv) and the gapminder ({dslabs} package) into three separate dataframes in R.__
+
+```{r download and import files}
+download.file("https://raw.githubusercontent.com/DataScienceILC/tlsc-dsfb26v-20_workflows/main/data/flu_data.csv", destfile="data/flu.data.csv")
+
+download.file("https://raw.githubusercontent.com/DataScienceILC/tlsc-dsfb26v-20_workflows/main/data/dengue_data.csv", destfile="data/dengue_data.csv")
+
+flu_data <- read_csv("data/flu.data.csv", 
+                     skip = 10)
+dengue_data <- read_csv("data/dengue_data.csv",
+                        skip = 11)
+gapminder <- gapminder
+```
+
+__7.2) Check if they are in the right shape. Is the data in the ‘tidy’ format? If not change the format to ‘tidy’.__
+
+```{r tidying flu and dengue}
+flu_tidy <- flu_data %>% pivot_longer(matches(colnames(flu_data[2:30])), names_to="country", values_to ="flu_value")
+
+dengue_tidy <- dengue_data %>% pivot_longer(matches(colnames(dengue_data[2:11])), names_to="country", values_to="dengue_value")
+```
+
+__7.3) Change the country and date variables of the three tables so that they coincide in terms of data type, class and values.__
+
+
