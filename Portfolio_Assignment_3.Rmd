@@ -2,8 +2,7 @@
 output: html_document
 ---
 ```{R Profile Picture, echo=FALSE, out.width = "20%"}
-knitr::include_graphics("doc/ResumePicture.jpg"
-)
+knitr::include_graphics("doc/ResumePicture.jpg")
 ```
 
 # __Shervin Kaandorp__
