@@ -72,7 +72,7 @@ ggplotCLF.062 +
 
 _G and H) Fill in. _
 
-The positive control for this experiments is Ethanol and the negative control for this experiment is S-medium.
+The positive control for this experiment is Ethanol and the negative control for this experiment is S-medium.
 
 _I) Think about how you would analyze this experiment to learn whether there is indeed an effect of different concentrations on offspring count and whether the different compounds have a different curve (IC50). Write down you analysis as a step-wise plan._
 

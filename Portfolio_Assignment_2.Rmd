@@ -1,0 +1,21 @@
+---
+title: "Portfolio Assignment 2"
+author: "Shervin Kaandorp"
+date: "30-5-2021"
+output: html_document
+---
+
+## Lesson 2
+
+### Portfolio Assignment 2
+
+- Look at your RStudio project that you created for the DAUR-II final assignment
+- Rearrange your project according the Guerilla principles explained above
+- Add README files to the datasets
+- Use the {fs} package to share a screenshot of your folder tree in your portfolio, look at: for more info on how to use the {fs} package.
+
+
+Since the DAUR-II final assignment isn't interesting to look at, I've decided to show the whole DAUR-II directory in the tree.
+```{r}
+fs::dir_tree(here::here("../DAUR2"))
+```
