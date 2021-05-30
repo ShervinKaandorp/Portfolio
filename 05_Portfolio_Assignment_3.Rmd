@@ -1,13 +1,18 @@
 ---
 output: html_document
 ---
+
+# Lesson 3
+
+## Portfolio Assignment 3
+
 ```{R Profile Picture, echo=FALSE, out.width = "20%"}
 knitr::include_graphics("doc/ResumePicture.jpg")
 ```
 
-# __Shervin Kaandorp__
+__Shervin Kaandorp__
 
-## __Life Science student__
+__Life Science student__
 
 ***
 

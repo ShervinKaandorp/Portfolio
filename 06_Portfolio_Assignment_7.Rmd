@@ -12,9 +12,9 @@ library(tidyr)
 ```
 
 
-## Lesson 7
+# Lesson 7
 
-### Portfolio Assignment 7
+## Portfolio Assignment 7
 
 __7.1) Load the flu (“./data/flu_data.csv), the dengue (.”/data/dengue_data.csv) and the gapminder ({dslabs} package) into three separate dataframes in R.__
 

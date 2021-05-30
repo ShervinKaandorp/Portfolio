@@ -10,9 +10,9 @@ library(readxl)
 library(here)
 ```
 
-## Lesson 1
+# Lesson 1
 
-### Portfolio Assignment 1.1
+## Portfolio Assignment 1.1
 
 _A) Review the following Excel file in the ./data/CE.LIQ.FLOW.062_Tidydata.xlsx (it’s here), by opening the file in Excel. See if you can spot anything peculiar about this file. Do not edit the file in any way. Just close it when you are done. (Annoyingly, Excel asks you to save your changes, even if you did not touch anything in the file: why is this cumbersome?)_
 
