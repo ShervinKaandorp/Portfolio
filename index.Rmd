@@ -1,14 +1,9 @@
 ---
 title: "Shervin Kaandorp's Portfolio"
 author: "Shervin Kaandorp"
-output: 
-  bookdown::gitbook:
-    sharing:
-    twitter: no
-    facebook: no
+output: bookdown::gitbook
 documentclass: book
 github-repo: ShervinKaandorp/Portfolio
-new_session: yes
 ---
 
 # Shervin Kaandorp's Portfolio
