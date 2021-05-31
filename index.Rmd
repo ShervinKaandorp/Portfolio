@@ -1,8 +1,9 @@
 ---
 title: "Shervin Kaandorp's Portfolio"
 author: "Shervin Kaandorp"
-output: bookdown::gitbook:
-  sharing:
+output: 
+  bookdown::gitbook:
+    sharing:
     twitter: no
     facebook: no
 documentclass: book
