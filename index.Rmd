@@ -1,7 +1,5 @@
 ---
-title: "Bookdown Portfolio"
-author: "Shervin Kaandorp"
-date: "30-5-2021"
+title: "Shervin Kaandorp's Portfolio"
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -14,10 +12,3 @@ site: bookdown::bookdown_site
 # Shervin Kaandorp's Portfolio
 
 This has to be added.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
