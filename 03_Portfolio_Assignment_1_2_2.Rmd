@@ -1,17 +1,17 @@
 ---
-title: "Workflows Assignment 1.2 PART 2"
+title: "Open Source Article"
 author: "Shervin Kaandorp"
 date: "14-4-2021"
 output: html_document
 ---
 
-## Portfolio Assignment 1.2 Part 2
+## Reviewing an open source article
 
 The article that has been reviewed is: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7969711/. With the dataset: https://osf.io/zrx6t/.
 
 López Steinmetz LC, Leyes CA, Dutto Florio MA, Fong SB, López Steinmetz RL and Godoy JC (2021) Mental Health Impacts in Argentinean College Students During COVID-19 Quarantine. Front. Psychiatry 12:557880. doi: 10.3389/fpsyt.2021.557880.
 
-: Table 1: Repita Creteria scores for article by López Steinmetz, L.C.
+: Table 2: Repita Creteria scores for article by López Steinmetz, L.C.
 
 | Transparency Criteria | Response |
 |:-----|:-----|
@@ -30,6 +30,8 @@ __The Code__
 I would score the readability of the code with a 5 (Very Easy). Comments are placed at each step and the code is separated in LOAD DATASET/PACKAGES, METHODS, AIM1 and AIM2.
 
 It was easy (4) to reproduce the visualization of the project. I only had to change the import of the dataset to read_excel and i had to change the column names with spaces from, for instance, PSYCH.WELLBEING to PSYCH WELLBEING. 
+
+To see the graphs, change the chunck to eval=TRUE.
 
 The code used for this project can be seen here.
 ```{R project code, eval=FALSE}

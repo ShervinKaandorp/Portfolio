@@ -2,14 +2,11 @@
 output: html_document
 ---
 
-# Lesson 3
-
-## Portfolio Assignment 3
+# Resume
 
 ```{R Profile Picture, echo=FALSE, out.width = "20%"}
 knitr::include_graphics("doc/ResumePicture.jpg")
 ```
-
 
 __Shervin Kaandorp__
 
@@ -19,7 +16,9 @@ __Life Science student__
 
 > Personal information
 
-I will not add my personal information here because of privacy :)
+Hello! I'm Shervin and I am a 21 year old Life Science student. As a young boy i was fascinated by the television series CSI which sparked my interest in labs and DNA. This lead me to choosing a study in which I can immerse myself in these interests. With this education I have broaden my knowledge about cell biology, DNA, Immunology, Hematology and several other areas of the medical biology. I was surprised by my interest in the Research in microbiology area specifically the virology field in which I want to have an internship in. I would like to combine this with my knowledge of data analysis which I learned in the minor Data Sciences for Biology.
+
+***
 
 > Education
 
@@ -27,26 +26,30 @@ __HBO Life Sciences • Hogeschool Utrecht, Utrecht__
 
 _September 2018 - Present_
 
-Microbiology specialisation.
+Microbiology specialization.
 
-Data Sciences for Biology minor 30 EC.
-
+Data Sciences for Biology minor 30 EC which covers: Data analysis in Unix and R, a basic introduction in SQL and Python and agile/scrum workflows. Within R I learned to work with Github, Rentrez, Biomart and GEOquery. Also, a project where I analyze the microbiome of water using BLAST in R.
 
 
 __VWO • Martinuscollege, Grootebroek__
 
 _September 2012 - July 2018_
 
-N&T en N&G package
+N&T en N&G package.
 
-
-
+***
 
 > Working Experience
 
+__Secretary • V.V.S. Uranymus__
+
+_September 2021 - September 2022_
+
+
 __Restaurant worker and attraction operator • Sprookjeswonderland__
 
-_August 2018 – January 2021_
+_August 2018 - January 2021_
+
 
 __Summer job • Soci-Com__
 
@@ -56,12 +59,15 @@ __Postman • Businesspost Hoorn__
 
 _August 2016 – August 2018_
 
+***
 
 > Skills
 
-* Data analysis in R
-* Data analysis in Bash
+* Data analysis in R 
+* Data analysis in Unix
 * Microsoft Excel
+* Introduction in SQL
+* Introduction in Python
 
 > Personality
 

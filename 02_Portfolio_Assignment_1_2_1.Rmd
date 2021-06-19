@@ -1,11 +1,14 @@
 ---
-title: "Workflows Assignment 1.2 PART 1"
+title: "Closed Source Article"
 author: "Shervin Kaandorp"
 date: "14-4-2021"
 output: html_document
 ---
 
-## Portfolio Assignment 1.2 Part 1
+# Open Source Articles
+Here I'll review a closed source article and an open source article. I will use the Repita Creteria Scores to grade the articles on transparency criteria. Additionaly, A short summary of the articles is given or the code of the research is given and graded on reproducibility
+
+## Reviewing a closed source article
 
 The article that has been reviewed is: https://pubmed.ncbi.nlm.nih.gov/32345594/
 

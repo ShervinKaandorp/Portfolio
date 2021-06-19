@@ -1,5 +1,5 @@
 ---
-title: "Portfolio Assignment 1.1"
+title: "Visualizing data from Excel"
 author: "Shervin Kaandorp"
 date: "14-4-2021"
 output: html_document
@@ -10,23 +10,19 @@ library(readxl)
 library(here)
 ```
 
-# Lesson 1
+# Visualizing data from Excel
 
-## Portfolio Assignment 1.1
-
-_A) Review the following Excel file in the ./data/CE.LIQ.FLOW.062_Tidydata.xlsx (it’s here), by opening the file in Excel. See if you can spot anything peculiar about this file. Do not edit the file in any way. Just close it when you are done. (Annoyingly, Excel asks you to save your changes, even if you did not touch anything in the file: why is this cumbersome?)_
+The data I am using is CE.LIQ.FLOW.062_Tidydata.xlsx which is an experiment where C.elegans nematodes were incubated in different compounds with different concentrations. This dataset was provided by J. Louter which is a researcher for the Lectoraat of the Institute for Life Sciences. Some variables are key to the visualization: the RawData, which is the number of offspring of the C. elegans, the compName, which is the compound in which the C. elegans was incubated and the compConcentration, which is the concentration in which the C. elegans was incubated. Here, i'll visualize the data to a graph with _ggplot2_. 
 
 There are some values missing in the "RawData" column in row 192-196. RawData, compName, compConcentration and the expType column all have a General format in Excel. While it is expected that they have a text format. Cell P260 has a comma instead of a dot.
 
-_B) Open the file in R, using the {readxl} package. _
-
-The _here_ package has also been used to import the excel file from the working directory.
+The _here_ and _readxl_ packages have been used to import the excel file from the working directory.
 
 ```{R Assignment 1.1B, message=FALSE}
 CE.LIQ.FLOW.062_Tidydata <- read_excel(here("rawdata/CE.LIQ.FLOW.062_Tidydata.xlsx"))
 ```
 
-_C) Inspect the data types of columns RawData, compName and compConcentration. What types would you expect from the experimental description above. Have the data types been correctly assigned during the importing of the data into R? _
+The variables are inspected with the str() command.
 
 ```{R Assignment 1.1C}
 as_tibble(CE.LIQ.FLOW.062_Tidydata) %>% select("RawData","compName","compConcentration") %>% str()
@@ -34,7 +30,7 @@ as_tibble(CE.LIQ.FLOW.062_Tidydata) %>% select("RawData","compName","compConcent
 
 The data of the "RawData" and "compName" columns have been assinged correctly. Nonetheless, the data type for "compConcentration" has been assinged incorrectly. This should have been numeric instead of character.
 
-_D) Create a graph displaying a scatterplot for the CE.LIQ.FLOW.062_Tidydata.xlsx data, for the different compounds and the varying concentrations. Put the compConcentration on the x-axis, the DataRaw counts on the y-axis and assign a colour to each level in compName. Assign a different symbol (shape =) to each level in the expType variable. Try fixing the labels of the x-axis so that we can read them. _
+The data has been visualized using the code here.
 
 ```{R Assignment 1.1D, warning=FALSE}
 CE.LIQ.FLOW.062_Tidydata$compConcentration <- 
@@ -55,26 +51,18 @@ ggplotCLF.062 <- CE.LIQ.FLOW.062_Tidydata %>%
 ggplotCLF.062
 ```
 
-_E) When creating the plot under C), what happened with the ordering of the x-axis labels. Explain why this happens. Look at the data-type of the compConcentration column in the data again to find a clue._
+Without using the as.numeric function, the x-axis would not be ordered correctly.
 
-This issue has been resolved using the as.numeric function. If this function wasn't used to make this variable numeric, it would still be a character variable and the x-axis wouldn't be sorted.
-
-_F) Correct the data-type of compConcentration to numeric and than look at the graph again. Use a log10 transformation on the x-axis to get a clear graph. Also, add a bit of jitter to the points in the graph so that points are not overlapping._
-
-Because the data-type of "compConcentration" was already made numeric in assignment 1.1D, there will only be a log10 transformation of the x-axis and a jitter.
+Because the values are very close to each other, a log10 transformation of the x-axis and a jitter was added.
 
 ```{R Assignment 1.1F, warning=FALSE} 
 ggplotCLF.062 + 
   scale_x_continuous(trans = "log10") + 
   geom_jitter(width=0.15) + 
   labs(caption="the dataset CE.LIQ.FLOW.062_Tidydata has been used and a jitter of 0.15 has been added.")
-````
-
-_G and H) Fill in. _
+```
 
 The positive control for this experiment is Ethanol and the negative control for this experiment is S-medium.
-
-_I) Think about how you would analyze this experiment to learn whether there is indeed an effect of different concentrations on offspring count and whether the different compounds have a different curve (IC50). Write down you analysis as a step-wise plan._
 
 To analyze the data, these steps should be performed:
 
@@ -83,7 +71,7 @@ To analyze the data, these steps should be performed:
 3. Now, a IC50 curve can be made depicting the concentration of the compound on the x-axis and the relative offspring on the y-axis.
 4. Additional significance tests are performed to examine a possible significant difference.
 
-_J) Normalize the data for the controlNegative in such a way that the mean value for controlNegative is exactly equal to 1 and that all other values are expressed as a fraction thereof. Rerun your graphs with the normalized data._
+The data will be normalized for the negative control (controlNegative) and a graph with the normalized data is made with the _ggplot2_ package (comes with _tidyverse_):
 
 ```{R Assignment 1.1J, warning=FALSE, message=FALSE}
 CE.LIQ.FLOW.062_means <- CE.LIQ.FLOW.062_Tidydata %>%
@@ -109,7 +97,5 @@ CE.LIQ.FLOW.062_means %>%
        colour="Compound") +
   scale_x_continuous(trans = "log10") # Creating graph
 ```
-
-_K) Why would you want to take the step under J?_
 
 To see whether or not there are significant differences, significance tests should be performed. Also a IC50 Curve can be made to visualize the data.
