@@ -1,0 +1,407 @@
+year,country,flu_value
+2002,Argentina,NA
+2002,Australia,NA
+2002,Austria,NA
+2002,Belgium,NA
+2002,Bolivia,NA
+2002,Brazil,174
+2002,Bulgaria,NA
+2002,Canada,NA
+2002,Chile,NA
+2002,France,NA
+2002,Germany,NA
+2002,Hungary,NA
+2002,Japan,NA
+2002,Mexico,NA
+2002,Netherlands,NA
+2002,New Zealand,NA
+2002,Norway,NA
+2002,Paraguay,NA
+2002,Peru,329
+2002,Poland,NA
+2002,Romania,NA
+2002,Russia,NA
+2002,South Africa,NA
+2002,Spain,NA
+2002,Sweden,NA
+2002,Switzerland,NA
+2002,Ukraine,NA
+2002,United States,NA
+2002,Uruguay,NA
+2003,Argentina,195
+2003,Australia,NA
+2003,Austria,727
+2003,Belgium,256
+2003,Bolivia,501
+2003,Brazil,238
+2003,Bulgaria,NA
+2003,Canada,3342
+2003,Chile,2
+2003,France,314
+2003,Germany,1108
+2003,Hungary,NA
+2003,Japan,46
+2003,Mexico,945
+2003,Netherlands,60
+2003,New Zealand,NA
+2003,Norway,NA
+2003,Paraguay,NA
+2003,Peru,393
+2003,Poland,NA
+2003,Romania,697
+2003,Russia,NA
+2003,South Africa,NA
+2003,Spain,77
+2003,Sweden,NA
+2003,Switzerland,136
+2003,Ukraine,NA
+2003,United States,3088
+2003,Uruguay,153
+2004,Argentina,170
+2004,Australia,NA
+2004,Austria,631
+2004,Belgium,55
+2004,Bolivia,425
+2004,Brazil,249
+2004,Bulgaria,710
+2004,Canada,1497
+2004,Chile,7
+2004,France,31
+2004,Germany,825
+2004,Hungary,51
+2004,Japan,77
+2004,Mexico,884
+2004,Netherlands,20
+2004,New Zealand,NA
+2004,Norway,13
+2004,Paraguay,NA
+2004,Peru,330
+2004,Poland,47
+2004,Romania,719
+2004,Russia,318
+2004,South Africa,NA
+2004,Spain,28
+2004,Sweden,NA
+2004,Switzerland,31
+2004,Ukraine,NA
+2004,United States,1127
+2004,Uruguay,145
+2005,Argentina,166
+2005,Australia,NA
+2005,Austria,798
+2005,Belgium,124
+2005,Bolivia,390
+2005,Brazil,255
+2005,Bulgaria,807
+2005,Canada,1901
+2005,Chile,5
+2005,France,109
+2005,Germany,948
+2005,Hungary,86
+2005,Japan,182
+2005,Mexico,981
+2005,Netherlands,34
+2005,New Zealand,NA
+2005,Norway,37
+2005,Paraguay,329
+2005,Peru,308
+2005,Poland,94
+2005,Romania,775
+2005,Russia,261
+2005,South Africa,NA
+2005,Spain,63
+2005,Sweden,3
+2005,Switzerland,74
+2005,Ukraine,504
+2005,United States,1615
+2005,Uruguay,128
+2006,Argentina,169
+2006,Australia,345
+2006,Austria,682
+2006,Belgium,84
+2006,Bolivia,371
+2006,Brazil,263
+2006,Bulgaria,881
+2006,Canada,1841
+2006,Chile,5
+2006,France,58
+2006,Germany,792
+2006,Hungary,62
+2006,Japan,112
+2006,Mexico,1067
+2006,Netherlands,28
+2006,New Zealand,28
+2006,Norway,28
+2006,Paraguay,311
+2006,Peru,283
+2006,Poland,48
+2006,Romania,768
+2006,Russia,296
+2006,South Africa,2701
+2006,Spain,39
+2006,Sweden,3
+2006,Switzerland,34
+2006,Ukraine,333
+2006,United States,1465
+2006,Uruguay,128
+2007,Argentina,197
+2007,Australia,569
+2007,Austria,779
+2007,Belgium,121
+2007,Bolivia,371
+2007,Brazil,256
+2007,Bulgaria,822
+2007,Canada,1650
+2007,Chile,11
+2007,France,81
+2007,Germany,870
+2007,Hungary,84
+2007,Japan,149
+2007,Mexico,1365
+2007,Netherlands,31
+2007,New Zealand,27
+2007,Norway,43
+2007,Paraguay,315
+2007,Peru,265
+2007,Poland,53
+2007,Romania,774
+2007,Russia,319
+2007,South Africa,2606
+2007,Spain,62
+2007,Sweden,3
+2007,Switzerland,58
+2007,Ukraine,407
+2007,United States,1410
+2007,Uruguay,143
+2008,Argentina,179
+2008,Australia,483
+2008,Austria,828
+2008,Belgium,90
+2008,Bolivia,318
+2008,Brazil,243
+2008,Bulgaria,677
+2008,Canada,1631
+2008,Chile,8
+2008,France,93
+2008,Germany,838
+2008,Hungary,104
+2008,Japan,92
+2008,Mexico,1165
+2008,Netherlands,35
+2008,New Zealand,36
+2008,Norway,44
+2008,Paraguay,285
+2008,Peru,230
+2008,Poland,50
+2008,Romania,755
+2008,Russia,403
+2008,South Africa,2603
+2008,Spain,42
+2008,Sweden,3
+2008,Switzerland,64
+2008,Ukraine,393
+2008,United States,1787
+2008,Uruguay,122
+2009,Argentina,153
+2009,Australia,438
+2009,Austria,906
+2009,Belgium,198
+2009,Bolivia,279
+2009,Brazil,211
+2009,Bulgaria,715
+2009,Canada,2714
+2009,Chile,21
+2009,France,155
+2009,Germany,875
+2009,Hungary,152
+2009,Japan,405
+2009,Mexico,1136
+2009,Netherlands,59
+2009,New Zealand,51
+2009,Norway,132
+2009,Paraguay,267
+2009,Peru,201
+2009,Poland,106
+2009,Romania,792
+2009,Russia,565
+2009,South Africa,2891
+2009,Spain,77
+2009,Sweden,9
+2009,Switzerland,112
+2009,Ukraine,493
+2009,United States,2681
+2009,Uruguay,111
+2010,Argentina,134
+2010,Australia,242
+2010,Austria,616
+2010,Belgium,53
+2010,Bolivia,226
+2010,Brazil,172
+2010,Bulgaria,458
+2010,Canada,1305
+2010,Chile,16
+2010,France,30
+2010,Germany,654
+2010,Hungary,53
+2010,Japan,40
+2010,Mexico,1144
+2010,Netherlands,22
+2010,New Zealand,34
+2010,Norway,64
+2010,Paraguay,193
+2010,Peru,164
+2010,Poland,24
+2010,Romania,620
+2010,Russia,448
+2010,South Africa,2491
+2010,Spain,14
+2010,Sweden,2
+2010,Switzerland,20
+2010,Ukraine,386
+2010,United States,1407
+2010,Uruguay,98
+2011,Argentina,107
+2011,Australia,253
+2011,Austria,671
+2011,Belgium,86
+2011,Bolivia,209
+2011,Brazil,160
+2011,Bulgaria,499
+2011,Canada,1419
+2011,Chile,6
+2011,France,59
+2011,Germany,668
+2011,Hungary,80
+2011,Japan,136
+2011,Mexico,952
+2011,Netherlands,31
+2011,New Zealand,32
+2011,Norway,93
+2011,Paraguay,180
+2011,Peru,136
+2011,Poland,46
+2011,Romania,667
+2011,Russia,507
+2011,South Africa,2484
+2011,Spain,24
+2011,Sweden,4
+2011,Switzerland,44
+2011,Ukraine,380
+2011,United States,1662
+2011,Uruguay,90
+2012,Argentina,116
+2012,Australia,518
+2012,Austria,756
+2012,Belgium,90
+2012,Bolivia,189
+2012,Brazil,145
+2012,Bulgaria,307
+2012,Canada,1917
+2012,Chile,13
+2012,France,72
+2012,Germany,679
+2012,Hungary,67
+2012,Japan,297
+2012,Mexico,1131
+2012,Netherlands,38
+2012,New Zealand,45
+2012,Norway,87
+2012,Paraguay,170
+2012,Peru,128
+2012,Poland,32
+2012,Romania,609
+2012,Russia,513
+2012,South Africa,2576
+2012,Spain,37
+2012,Sweden,7
+2012,Switzerland,56
+2012,Ukraine,366
+2012,United States,2319
+2012,Uruguay,96
+2013,Argentina,126
+2013,Australia,367
+2013,Austria,966
+2013,Belgium,185
+2013,Bolivia,176
+2013,Brazil,167
+2013,Bulgaria,345
+2013,Canada,2004
+2013,Chile,23
+2013,France,146
+2013,Germany,787
+2013,Hungary,81
+2013,Japan,474
+2013,Mexico,1224
+2013,Netherlands,52
+2013,New Zealand,43
+2013,Norway,90
+2013,Paraguay,226
+2013,Peru,130
+2013,Poland,52
+2013,Romania,652
+2013,Russia,637
+2013,South Africa,2705
+2013,Spain,53
+2013,Sweden,11
+2013,Switzerland,123
+2013,Ukraine,422
+2013,United States,2504
+2013,Uruguay,96
+2014,Argentina,136
+2014,Australia,590
+2014,Austria,993
+2014,Belgium,105
+2014,Bolivia,174
+2014,Brazil,170
+2014,Bulgaria,487
+2014,Canada,2334
+2014,Chile,21
+2014,France,56
+2014,Germany,731
+2014,Hungary,77
+2014,Japan,649
+2014,Mexico,1345
+2014,Netherlands,32
+2014,New Zealand,64
+2014,Norway,78
+2014,Paraguay,255
+2014,Peru,126
+2014,Poland,30
+2014,Romania,663
+2014,Russia,596
+2014,South Africa,2992
+2014,Spain,58
+2014,Sweden,5
+2014,Switzerland,74
+2014,Ukraine,387
+2014,United States,1920
+2014,Uruguay,104
+2015,Argentina,151
+2015,Australia,636
+2015,Austria,1254
+2015,Belgium,347
+2015,Bolivia,200
+2015,Brazil,206
+2015,Bulgaria,518
+2015,Canada,2125
+2015,Chile,13
+2015,France,336
+2015,Germany,889
+2015,Hungary,191
+2015,Japan,754
+2015,Mexico,1357
+2015,Netherlands,52
+2015,New Zealand,25
+2015,Norway,128
+2015,Paraguay,309
+2015,Peru,126
+2015,Poland,61
+2015,Romania,740
+2015,Russia,670
+2015,South Africa,3092
+2015,Spain,152
+2015,Sweden,10
+2015,Switzerland,200
+2015,Ukraine,378
+2015,United States,1915
+2015,Uruguay,131
