@@ -1,0 +1,66 @@
+---
+title: "Parameters in Rmd"
+author: "Shervin Kaandorp"
+date: "20-6-2021"
+output: html_document
+params:
+  country: Netherlands
+  year: 2021
+  month: 3
+---
+
+```{r setup08, include=FALSE}
+library(tidyverse)
+```
+
+# Parameters in R Markdown
+
+In this part of my portfolio, I will use parameters to show some graphs using COVID-19 data from the EDCC.
+
+First, ofcourse, we have to read the file
+```{r input file, message=FALSE}
+cases_deaths <- read_csv(here::here("data/edcc_data.csv"))
+```
+
+Now we will filter the data on the year, date and country parameter.
+
+```{r filter parameter}
+filtered_data <- cases_deaths %>% filter(countriesAndTerritories == params$country, year == params$year, month == params$month)
+```
+
+Now that the data is filtered, we have to make dates for our x-axis in the graph.
+
+```{r making dates}
+filtered_data$date <- paste(filtered_data$day, filtered_data$month, filtered_data$year, sep="-")
+filtered_data$date <- as.Date(filtered_data$date, "%d-%m-%y")
+```
+
+```{r ggplot 1}
+filtered_data %>% filter(day > 1) %>% ggplot(aes(x=date, y=cases)) + geom_line() + geom_point() + 
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x="Date", y="Cases",
+       title=paste("COVID-19 cases in the", 
+                   params$country,
+                   "between",
+                   filtered_data$date[length(filtered_data$date)],
+                   "and",
+                   filtered_data$date[1] 
+                   ),
+       caption="Figure 1: Data from EDCC, 
+       data on the daily number of new reported COVID-19 cases and deaths by EU/EEA country")
+```
+
+```{r ggplot 2}
+filtered_data %>% filter(day > 1) %>% ggplot(aes(x=date, y=deaths)) + geom_line() + geom_point() + 
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x="Date", y="Deaths",
+       title=paste("COVID-19 deaths in the", 
+                   params$country,
+                   "between",
+                   filtered_data$date[length(filtered_data$date)],
+                   "and",
+                   filtered_data$date[1] 
+                   ),
+       caption="Figure 2: Data from EDCC, 
+       data on the daily number of new reported COVID-19 cases and deaths by EU/EEA country")
+```

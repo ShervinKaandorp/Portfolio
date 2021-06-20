@@ -1,0 +1,12 @@
+---
+title: "The Project"
+author: "Shervin Kaandorp"
+date: "20-6-2021"
+output: html_document
+---
+
+# Analyzing a water microbiome
+
+In the DSFB minor i got assigned to analyze a water microbiome. In this part of my portfolio I will give a short description about this project.
+
+I did not add this to my portfolio because of time.

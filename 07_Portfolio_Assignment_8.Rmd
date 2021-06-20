@@ -1,0 +1,10 @@
+---
+title: "Making a Package"
+author: "Shervin Kaandorp"
+date: "20-6-2021"
+output: html_document
+---
+
+# Making a package
+
+The link to my package can be found [here](https://github.com/ShervinKaandorp/sheasy)

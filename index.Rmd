@@ -8,6 +8,10 @@ github-repo: ShervinKaandorp/Portfolio
 
 # Shervin Kaandorp's Portfolio
 
+Hello! Welcome to my portfolio. In this portfolio I will showcase my knowledge of working with R. Now, this consists of only portolio assignments (which I will clarify in the preface) but I'm planning to add more to send this portfolio to future employers.
+
+## Preface
+
 This bookdown is made for the Workflows course of the Data Sciences for Biology minor.
 
 In this bookdown, multiple "portfolio assignments" can be found.
@@ -15,7 +19,7 @@ In this bookdown, multiple "portfolio assignments" can be found.
 The following concepts and technologies were fundamental in this course (retrieved from the Workflows course reader):
 
 - Open Science
--File management and formatting following the Guerrilla Analytics Principles
+- File management and formatting following the Guerrilla Analytics Principles
 - Version control and Project management, using Github.com
 - Literate Programming using R flavored Markdown (R Markdown)
 - Relational databases to improve data provenance, computational speed and traceability of observations

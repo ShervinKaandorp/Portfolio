@@ -5,13 +5,12 @@ date: "16-5-2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup06, include=FALSE}
 library(tidyverse)
 library(dslabs)
 library(tidyr)
 library(RPostgreSQL)
 ```
-
 
 # SQL and R
 
