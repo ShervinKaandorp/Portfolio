@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Visualizing data from Excel | In the Future</title>
+  <meta name="description" content="2 Visualizing data from Excel | In the Future" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Visualizing data from Excel | In the Future" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="ShervinKaandorp/Portfolio" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Visualizing data from Excel | In the Future" />
+  
+  
+  
+
+<meta name="author" content="Shervin Kaandorp" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="open-source-articles.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Shervin Kaandorp’s Portfolio</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#preface"><i class="fa fa-check"></i><b>1.1</b> Preface</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="visualizing-data-from-excel.html"><a href="visualizing-data-from-excel.html"><i class="fa fa-check"></i><b>2</b> Visualizing data from Excel</a></li>
+<li class="chapter" data-level="3" data-path="open-source-articles.html"><a href="open-source-articles.html"><i class="fa fa-check"></i><b>3</b> Open Source Articles</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="open-source-articles.html"><a href="open-source-articles.html#reviewing-a-closed-source-article"><i class="fa fa-check"></i><b>3.1</b> Reviewing a closed source article</a></li>
+<li class="chapter" data-level="3.2" data-path="open-source-articles.html"><a href="open-source-articles.html#reviewing-an-open-source-article"><i class="fa fa-check"></i><b>3.2</b> Reviewing an open source article</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="a-clean-directory.html"><a href="a-clean-directory.html"><i class="fa fa-check"></i><b>4</b> A clean directory</a></li>
+<li class="chapter" data-level="5" data-path="resume.html"><a href="resume.html"><i class="fa fa-check"></i><b>5</b> Resume</a></li>
+<li class="chapter" data-level="6" data-path="sql-and-r.html"><a href="sql-and-r.html"><i class="fa fa-check"></i><b>6</b> SQL and R</a></li>
+<li class="chapter" data-level="7" data-path="making-a-package.html"><a href="making-a-package.html"><i class="fa fa-check"></i><b>7</b> Making a package</a></li>
+<li class="chapter" data-level="8" data-path="parameters-in-r-markdown.html"><a href="parameters-in-r-markdown.html"><i class="fa fa-check"></i><b>8</b> Parameters in R Markdown</a></li>
+<li class="chapter" data-level="9" data-path="introduction-in-python.html"><a href="introduction-in-python.html"><i class="fa fa-check"></i><b>9</b> Introduction in Python</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="introduction-in-python.html"><a href="introduction-in-python.html#part-1-programming"><i class="fa fa-check"></i><b>9.1</b> Part 1: Programming</a></li>
+<li class="chapter" data-level="9.2" data-path="introduction-in-python.html"><a href="introduction-in-python.html#part-2-using-biopython"><i class="fa fa-check"></i><b>9.2</b> Part 2: Using Biopython</a></li>
+<li class="chapter" data-level="9.3" data-path="introduction-in-python.html"><a href="introduction-in-python.html#part-3-advanced-topics"><i class="fa fa-check"></i><b>9.3</b> Part 3: Advanced Topics</a></li>
+<li class="chapter" data-level="9.4" data-path="introduction-in-python.html"><a href="introduction-in-python.html#part-4-python-recipes"><i class="fa fa-check"></i><b>9.4</b> Part 4: Python Recipes</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="analyzing-a-water-microbiome.html"><a href="analyzing-a-water-microbiome.html"><i class="fa fa-check"></i><b>10</b> Analyzing a water microbiome</a></li>
+<li class="chapter" data-level="11" data-path="in-the-future.html"><a href="in-the-future.html"><i class="fa fa-check"></i><b>11</b> In the future</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">In the Future</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="visualizing-data-from-excel" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Visualizing data from Excel</h1>
+<p>The data I am using is CE.LIQ.FLOW.062_Tidydata.xlsx which is an experiment where C.elegans nematodes were incubated in different compounds with different concentrations. This dataset was provided by J. Louter which is a researcher for the Lectoraat of the Institute for Life Sciences. Some variables are key to the visualization: the RawData, which is the number of offspring of the C. elegans, the compName, which is the compound in which the C. elegans was incubated and the compConcentration, which is the concentration in which the C. elegans was incubated. Here, i’ll visualize the data to a graph with <em>ggplot2</em>.</p>
+<p>There are some values missing in the “RawData” column in row 192-196. RawData, compName, compConcentration and the expType column all have a General format in Excel. While it is expected that they have a text format. Cell P260 has a comma instead of a dot.</p>
+<p>The <em>here</em> and <em>readxl</em> packages have been used to import the excel file from the working directory.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="visualizing-data-from-excel.html#cb1-1" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="fu">here</span>(<span class="st">&quot;rawdata/CE.LIQ.FLOW.062_Tidydata.xlsx&quot;</span>))</span></code></pre></div>
+<p>The variables are inspected with the str() command.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="visualizing-data-from-excel.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as_tibble</span>(CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata) <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="st">&quot;RawData&quot;</span>,<span class="st">&quot;compName&quot;</span>,<span class="st">&quot;compConcentration&quot;</span>) <span class="sc">%&gt;%</span> <span class="fu">str</span>()</span></code></pre></div>
+<pre><code>## tibble[,3] [360 x 3] (S3: tbl_df/tbl/data.frame)
+##  $ RawData          : num [1:360] 44 37 45 47 41 35 41 36 40 38 ...
+##  $ compName         : chr [1:360] &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; &quot;2,6-diisopropylnaphthalene&quot; ...
+##  $ compConcentration: chr [1:360] &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; &quot;4.99&quot; ...</code></pre>
+<p>The data of the “RawData” and “compName” columns have been assinged correctly. Nonetheless, the data type for “compConcentration” has been assinged incorrectly. This should have been numeric instead of character.</p>
+<p>The data has been visualized using the code here.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="visualizing-data-from-excel.html#cb4-1" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata<span class="sc">$</span>compConcentration <span class="ot">&lt;-</span> </span>
+<span id="cb4-2"><a href="visualizing-data-from-excel.html#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">&quot;,&quot;</span>, <span class="st">&quot;.&quot;</span>, CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata<span class="sc">$</span>compConcentration) <span class="co"># Resolving issue comma in cell P260.</span></span>
+<span id="cb4-3"><a href="visualizing-data-from-excel.html#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="visualizing-data-from-excel.html#cb4-4" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata<span class="sc">$</span>compConcentration <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata<span class="sc">$</span>compConcentration, <span class="at">na.rm=</span><span class="cn">TRUE</span>) <span class="co"># Change type of compConcentration to numeric</span></span>
+<span id="cb4-5"><a href="visualizing-data-from-excel.html#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="visualizing-data-from-excel.html#cb4-6" aria-hidden="true" tabindex="-1"></a>ggplotCLF<span class="fl">.062</span> <span class="ot">&lt;-</span> CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata <span class="sc">%&gt;%</span> </span>
+<span id="cb4-7"><a href="visualizing-data-from-excel.html#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>compConcentration,<span class="at">y=</span>RawData,<span class="at">shape=</span>expType,<span class="at">colour=</span>compName)) <span class="sc">+</span></span>
+<span id="cb4-8"><a href="visualizing-data-from-excel.html#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb4-9"><a href="visualizing-data-from-excel.html#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span> <span class="st">&quot;Compound Concentration (nM)&quot;</span>,</span>
+<span id="cb4-10"><a href="visualizing-data-from-excel.html#cb4-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span> <span class="st">&quot;Number of offspring&quot;</span>,</span>
+<span id="cb4-11"><a href="visualizing-data-from-excel.html#cb4-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">title=</span> <span class="st">&quot;Number of offsprings of C.elegans after incubating in a compound&quot;</span>,</span>
+<span id="cb4-12"><a href="visualizing-data-from-excel.html#cb4-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption=</span> <span class="st">&quot;the dataset CE.LIQ.FLOW.062_Tidydata has been used&quot;</span>,</span>
+<span id="cb4-13"><a href="visualizing-data-from-excel.html#cb4-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">shape=</span><span class="st">&quot;Experiment Type&quot;</span>,</span>
+<span id="cb4-14"><a href="visualizing-data-from-excel.html#cb4-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">colour=</span><span class="st">&quot;Compound&quot;</span>) <span class="co"># Creating graph</span></span>
+<span id="cb4-15"><a href="visualizing-data-from-excel.html#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="visualizing-data-from-excel.html#cb4-16" aria-hidden="true" tabindex="-1"></a>ggplotCLF<span class="fl">.062</span></span></code></pre></div>
+<p><img src="_main_files/figure-html/Assignment%201.1D-1.png" width="672" /></p>
+<p>Without using the as.numeric function, the x-axis would not be ordered correctly.</p>
+<p>Because the values are very close to each other, a log10 transformation of the x-axis and a jitter was added.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="visualizing-data-from-excel.html#cb5-1" aria-hidden="true" tabindex="-1"></a>ggplotCLF<span class="fl">.062</span> <span class="sc">+</span> </span>
+<span id="cb5-2"><a href="visualizing-data-from-excel.html#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>) <span class="sc">+</span> </span>
+<span id="cb5-3"><a href="visualizing-data-from-excel.html#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width=</span><span class="fl">0.15</span>) <span class="sc">+</span> </span>
+<span id="cb5-4"><a href="visualizing-data-from-excel.html#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">caption=</span><span class="st">&quot;the dataset CE.LIQ.FLOW.062_Tidydata has been used and a jitter of 0.15 has been added.&quot;</span>)</span></code></pre></div>
+<p><img src="_main_files/figure-html/Assignment%201.1F-1.png" width="672" /></p>
+<p>The positive control for this experiment is Ethanol and the negative control for this experiment is S-medium.</p>
+<p>To analyze the data, these steps should be performed:</p>
+<ol style="list-style-type: decimal">
+<li>The mean offspring of each concentration of each compound should be calculated.</li>
+<li>The mean offspring of each concentration of each compound should be normalized with the mean offspring of the negative control.</li>
+<li>Now, a IC50 curve can be made depicting the concentration of the compound on the x-axis and the relative offspring on the y-axis.</li>
+<li>Additional significance tests are performed to examine a possible significant difference.</li>
+</ol>
+<p>The data will be normalized for the negative control (controlNegative) and a graph with the normalized data is made with the <em>ggplot2</em> package (comes with <em>tidyverse</em>):</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="visualizing-data-from-excel.html#cb6-1" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_means <span class="ot">&lt;-</span> CE.LIQ.FLOW<span class="fl">.062</span>_Tidydata <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="visualizing-data-from-excel.html#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(compName,compConcentration, expType) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-3"><a href="visualizing-data-from-excel.html#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean=</span><span class="fu">mean</span>(RawData, <span class="at">na.rm=</span><span class="cn">TRUE</span>)) <span class="co"># Calculating mean</span></span>
+<span id="cb6-4"><a href="visualizing-data-from-excel.html#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="visualizing-data-from-excel.html#cb6-5" aria-hidden="true" tabindex="-1"></a>S_medium_neg <span class="ot">&lt;-</span> CE.LIQ.FLOW<span class="fl">.062</span>_means <span class="sc">%&gt;%</span> </span>
+<span id="cb6-6"><a href="visualizing-data-from-excel.html#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(compName<span class="sc">==</span><span class="st">&quot;S-medium&quot;</span>)</span>
+<span id="cb6-7"><a href="visualizing-data-from-excel.html#cb6-7" aria-hidden="true" tabindex="-1"></a>negative_cont <span class="ot">&lt;-</span> S_medium_neg[<span class="dv">4</span>] <span class="co"># Retrieving negative control mean</span></span>
+<span id="cb6-8"><a href="visualizing-data-from-excel.html#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="visualizing-data-from-excel.html#cb6-9" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_means <span class="ot">&lt;-</span> CE.LIQ.FLOW<span class="fl">.062</span>_means <span class="sc">%&gt;%</span> </span>
+<span id="cb6-10"><a href="visualizing-data-from-excel.html#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">relative_offspring=</span>mean<span class="sc">/</span>negative_cont<span class="sc">*</span><span class="dv">100</span>) <span class="co"># Adding relative offspring count</span></span>
+<span id="cb6-11"><a href="visualizing-data-from-excel.html#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="visualizing-data-from-excel.html#cb6-12" aria-hidden="true" tabindex="-1"></a>CE.LIQ.FLOW<span class="fl">.062</span>_means <span class="sc">%&gt;%</span></span>
+<span id="cb6-13"><a href="visualizing-data-from-excel.html#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>compConcentration,<span class="at">y=</span>relative_offspring<span class="sc">$</span>mean,<span class="at">shape=</span>expType,<span class="at">colour=</span>compName)) <span class="sc">+</span></span>
+<span id="cb6-14"><a href="visualizing-data-from-excel.html#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb6-15"><a href="visualizing-data-from-excel.html#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span> <span class="st">&quot;Compound Concentration (nM)&quot;</span>,</span>
+<span id="cb6-16"><a href="visualizing-data-from-excel.html#cb6-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span> <span class="st">&quot;Relative number of offspring (%)&quot;</span>,</span>
+<span id="cb6-17"><a href="visualizing-data-from-excel.html#cb6-17" aria-hidden="true" tabindex="-1"></a>       <span class="at">title=</span> <span class="st">&quot;Relative C.elegans offspring after incubating in a compound&quot;</span>,</span>
+<span id="cb6-18"><a href="visualizing-data-from-excel.html#cb6-18" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption=</span> <span class="st">&quot;the dataset CE.LIQ.FLOW.062_Tidydata has been used, </span></span>
+<span id="cb6-19"><a href="visualizing-data-from-excel.html#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="st">       and the offspring count have been normalized for the negative control.&quot;</span>,</span>
+<span id="cb6-20"><a href="visualizing-data-from-excel.html#cb6-20" aria-hidden="true" tabindex="-1"></a>       <span class="at">shape=</span><span class="st">&quot;Experiment Type&quot;</span>,</span>
+<span id="cb6-21"><a href="visualizing-data-from-excel.html#cb6-21" aria-hidden="true" tabindex="-1"></a>       <span class="at">colour=</span><span class="st">&quot;Compound&quot;</span>) <span class="sc">+</span></span>
+<span id="cb6-22"><a href="visualizing-data-from-excel.html#cb6-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">trans =</span> <span class="st">&quot;log10&quot;</span>) <span class="co"># Creating graph</span></span></code></pre></div>
+<p><img src="_main_files/figure-html/Assignment%201.1J-1.png" width="672" /></p>
+<p>To see whether or not there are significant differences, significance tests should be performed. Also a IC50 Curve can be made to visualize the data.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="open-source-articles.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

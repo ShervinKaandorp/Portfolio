@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>In the Future</title>
-  <meta name="description" content="In the Future" />
+  <title>9 Introduction in Python | In the Future</title>
+  <meta name="description" content="9 Introduction in Python | In the Future" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="In the Future" />
+  <meta property="og:title" content="9 Introduction in Python | In the Future" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="ShervinKaandorp/Portfolio" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="In the Future" />
+  <meta name="twitter:title" content="9 Introduction in Python | In the Future" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="visualizing-data-from-excel.html"/>
+<link rel="prev" href="parameters-in-r-markdown.html"/>
+<link rel="next" href="analyzing-a-water-microbiome.html"/>
 <script src="libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -173,26 +173,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">In the Future</h1>
-<p class="author"><em>Shervin Kaandorp</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>20-6-2021</em></p>
+<div id="introduction-in-python" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Introduction in Python</h1>
+<p>For my self study I started learning Python. Python is very interesting to me because it is the most used programming language in the world. I want to learn multiple coding languages to broaden myself. To learn Python I am using the book ‘Python for Bioinformatics’ by Sebastian Bassi which learns me to use Python in shell and how to adapt bioinformatics in python. In this markdown I’ll describe what I have learned from this guide.</p>
+<div id="part-1-programming" class="section level2" number="9.1">
+<h2><span class="header-section-number">9.1</span> Part 1: Programming</h2>
+<p>To start my Python journey I obviously have to know how strings, calculation and other basic principles work. I started printing ‘Hello World’ to the screen using <code>print("Hello World")</code> (see the figure) I’ve also seen the first big difference between R and Python. In Python, you can add strings together doing <code>'Hello' + 'World'</code> or <code>'1'+'1'</code> as seen below (the strings cannot be added together when the classes are not the same). This is not possible with R, this gives the error: <code>Error in "1" + "1" : non-numeric argument to binary operator</code>. In R one should use <code>paste('Hello','World')</code>.</p>
+<div class="figure">
+<img src="doc/helloworld.png" alt="Figure 1: hello world!" width="20%" />
+<p class="caption">
+(#fig:hello world!)Figure 1: hello world!
+</p>
 </div>
-<div id="shervin-kaandorps-portfolio" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Shervin Kaandorp’s Portfolio</h1>
-<p>Hello! Welcome to my portfolio. In this portfolio I will showcase my knowledge of working with R. Now, this consists of only portolio assignments (which I will clarify in the preface) but I’m planning to add more to send this portfolio to future employers.</p>
-<div id="preface" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Preface</h2>
-<p>This bookdown is made for the Workflows course of the Data Sciences for Biology minor.</p>
-<p>In this bookdown, multiple “portfolio assignments” can be found.</p>
-<p>The following concepts and technologies were fundamental in this course (retrieved from the Workflows course reader):</p>
-<ul>
-<li>Open Science</li>
-<li>File management and formatting following the Guerrilla Analytics Principles</li>
-<li>Version control and Project management, using Github.com</li>
-<li>Literate Programming using R flavored Markdown (R Markdown)</li>
-<li>Relational databases to improve data provenance, computational speed and traceability of observations</li>
-</ul>
+<p>The next thing I noticed was the use of functions. In Python you can add strings to a function easily by doing <code>&lt;string&gt;.&lt;function&gt;()</code>. In the example I made a DNA strand called “dna” and I used the replace function to replace each a with an h (which isn’t relevant but it shows how it works).</p>
+<div class="figure"><span id="fig:piping"></span>
+<img src="doc/piping.png" alt="Figure 2: replacing and input the dna" width="20%" />
+<p class="caption">
+Figure 9.1: Figure 2: replacing and input the dna
+</p>
+</div>
+<p>Also, numbers are different in Python. In R, if we say <code>&lt;string&gt;[1]</code> we get the first value in this string. But in python this is the second. Also when we say <code>&lt;string&gt;[1:2]</code> we get the first and second value in the string in R. In python we only get the second.</p>
+<p>I will showcase some self evaluation assignments, which are inside the guide.</p>
+<p>First i will make a program that checks whether or not a number is a palindrome.</p>
+<p>Now i will make a program that asks for your name and writes it to MyName.txt.</p>
+</div>
+<div id="part-2-using-biopython" class="section level2" number="9.2">
+<h2><span class="header-section-number">9.2</span> Part 2: Using Biopython</h2>
+</div>
+<div id="part-3-advanced-topics" class="section level2" number="9.3">
+<h2><span class="header-section-number">9.3</span> Part 3: Advanced Topics</h2>
+</div>
+<div id="part-4-python-recipes" class="section level2" number="9.4">
+<h2><span class="header-section-number">9.4</span> Part 4: Python Recipes</h2>
 
 </div>
 </div>
@@ -201,8 +213,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="visualizing-data-from-excel.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="parameters-in-r-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="analyzing-a-water-microbiome.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
